@@ -12,9 +12,11 @@ console.log(null_arr[1]); //undefined
 console.log(emp_arr);
 
 //array methods
+
 console.log(fruits.length); //output:6
-console.log(fruits.toString()); //output: apple,mango,banana,kiwi,orange,pineapple
 console.log(fruits.at(2)); //output:banana
+//difference between toString() and join() is that the first method converts an array to a string of (comma separated) array values, while the second method joins all array elements into a string and you can specify a separator.
+console.log(fruits.toString()); //output: apple,mango,banana,kiwi,orange,pineapple
 console.log(fruits.join("|")); //output:apple | mango | banana | kiwi | orange | pineapple;
 
 //pop removes the last element while shift remove the first element of an array
