@@ -1,0 +1,27 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+#type-box {
+    border:2px solid #919295;
+    padding:5px 8px;
+    border-radius:5px;
+    margin-bottom: 5px;
+    width:500px;
+    height:40px;
+}
+
+#key,#key-pressed, #key-code, #pressed-key-code {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#key-pressed, #pressed-key-code {
+    color: aqua;
+}
+
+
