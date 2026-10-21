@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+#form {
+    border:2px solid #0277bd;
+    border-radius: 5px;
+    padding: 24px;
+}
+
+label {
+    font-size:20px;
+    font-weight: 600;
+    color:#0277bd;
+    line-height: 1.5;
+}
+
+#password {
+    padding:5px;
+    border:1px solid #919295;
+    border-radius:4px;
+}
+#password:focus{
+    outline: none;
+    border:2px solid #0277bd;
+}
+
+#form>div:nth-child(2) {
+    margin-top: 10px;
+}
